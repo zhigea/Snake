@@ -1,10 +1,10 @@
 import React from 'react';
+import styles from './HomePage.module.css';
 
 const HomePage = () => {
   return (
-    <div className="page">
-      <h1>Домашняя страница</h1>
-      <button>Играть</button>
+    <div className={styles.page}>
+      <button>Играть &#9654;</button>
     </div>
   );
 }
